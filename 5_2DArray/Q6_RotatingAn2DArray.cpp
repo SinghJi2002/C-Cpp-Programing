@@ -1,0 +1,18 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+void rotate(int matrix[][3]){
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){
+            matrix[j][i]=matrix[i][j];
+            cout<<matrix[i][j]<<'\t';
+        }
+        cout<<endl;
+    }
+}
+
+int main(){
+    int matrix[3][3]={{1,2,3},{4,5,6},{7,8,9}};
+    rotate(matrix);
+}
