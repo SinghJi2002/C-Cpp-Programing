@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "stdio.h": "c",
+        "Lab7_3_716.C": "cpp",
+        "Lab12_SirQ2.C": "cpp",
+        "3.C": "cpp"
     }
 }
